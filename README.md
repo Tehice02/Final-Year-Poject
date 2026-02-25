@@ -158,13 +158,6 @@ project-root/
 ├── database/                     # Database layer
 │   ├── db_manager.py             # Database management utilities
 │   └── nids.db                   # SQLite database file
-├── docs/                         # Documentation
-│   └── diagrams/                 # Mermaid diagram files
-│       ├── component.mmd         # Component diagram
-│       ├── flow.mmd              # Flow diagram
-│       ├── security_usecase.mmd  # Security use case diagram
-│       ├── sequence.mmd          # Sequence diagram
-│       └── usecase.mmd           # Use case diagram
 ├── exports/                      # Export directory for reports
 ├── logs/                         # Application logs
 │   └── nids_system.log           # System log file
@@ -183,15 +176,11 @@ project-root/
 │       ├── scaler.pkl            # Feature scaler
 │       ├── features.pkl          # Feature metadata
 │       └── backup_*/             # Model backups
-├── node_modules/                 # Node.js dependencies (ngrok)
 ├── uploads/                      # Uploaded PCAP files storage
 ├── config.py                     # Root-level database configuration
 ├── create_admin.py               # Admin user creation script
-├── retrain_model.py              # Model retraining script
 ├── run.py                        # Application entry point
 ├── requirements.txt              # Python dependencies
-├── package.json                  # Node.js dependencies (ngrok)
-├── package-lock.json             # Node.js lock file
 └── README.md                     # This file
 ```
 
