@@ -26,6 +26,22 @@ A real-time network intrusion detection system using Machine Learning models (XG
 - **Logging:** Python logging module with file rotation
 - **Development Tools:** ngrok (for external access/testing)
 
+## Picture of the web application
+
+
+<img width="1043" height="784" alt="Screenshot 2025-12-16 162813" src="https://github.com/user-attachments/assets/aed044f9-5cc1-4862-bd05-7bc64afa9078" />
+
+<img width="973" height="1242" alt="Screenshot 2025-12-16 162838" src="https://github.com/user-attachments/assets/a36be935-3e94-492e-b0b1-fed36d1f578f" />
+
+<img width="413" height="559" alt="Screenshot 2025-12-16 162910" src="https://github.com/user-attachments/assets/cec8a25b-80ff-4411-a978-486924cba449" />
+
+<img width="1067" height="1822" alt="Screenshot 2025-12-18 143648" src="https://github.com/user-attachments/assets/a2a70ec3-b4f7-464e-b1bd-a044b09b750b" />
+
+<img width="879" height="895" alt="Screenshot 2026-01-19 233135" src="https://github.com/user-attachments/assets/47a14c25-d550-4fc1-bb5a-5d930fafd834" />
+
+<img width="899" height="822" alt="Screenshot 2026-01-17 182432" src="https://github.com/user-attachments/assets/01ddeb0b-492d-4ecd-8f7d-1e56c66deefa" />
+
+
 ## Installation
 
 ### Prerequisites
