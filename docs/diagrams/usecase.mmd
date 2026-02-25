@@ -1,0 +1,32 @@
+flowchart LR
+  subgraph Actors
+    A_Admin["Admin"]
+    A_Analyst["Analyst / Security Officer"]
+    A_System["System - ML Engine"]
+  end
+
+  subgraph UseCases
+    UC_Login[(Login to system)]
+    UC_Start[(Start live packet capture)]
+    UC_Upload[(Upload PCAP file)]
+    UC_Dashboard[(View real-time dashboard)]
+    UC_History[(View alert history)]
+    UC_Manage[(Manage users)]
+    UC_Feature[(Perform feature extraction)]
+    UC_Predict[(Return model predictions)]
+  end
+
+  A_Admin --> UC_Login
+  A_Analyst --> UC_Login
+
+  A_Analyst --> UC_Start
+  A_Analyst --> UC_Upload
+  A_Analyst --> UC_Dashboard
+  A_Analyst --> UC_History
+
+  A_Admin --> UC_Manage
+
+  UC_Upload --> UC_Feature
+  UC_Feature --> UC_Predict
+  A_System --> UC_Feature
+  A_System --> UC_Predict

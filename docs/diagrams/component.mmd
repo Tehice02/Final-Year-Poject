@@ -1,0 +1,17 @@
+flowchart LR
+  User[User / Admin] -->|uses| WebUI[Web Application]
+  WebUI -->|HTTP/API| Routes[Flask Routes]
+  Routes --> Services[Service Layer]
+  subgraph Backend
+    Services --> PcapService[PCAP Service]
+    Services --> MLService[ML Service]
+    Services --> Monitoring[Monitoring Service]
+    MLService --> Models[(Model files)]
+    PcapService --> Parser[Packet Parser]
+    Parser --> FlowAgg[Flow Aggregator]
+    FlowAgg --> DB[(Database)]
+    MLService --> DB
+  end
+  Services -->|read/write| DB
+  WebUI -->|download| Exports[Exports / Reports]
+  Logs[Logs] --> Monitoring

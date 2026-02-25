@@ -1,0 +1,86 @@
+2025-12-11 00:35:07 [INFO] [nids] [Database] Using database at C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\database\nids.db
+2025-12-11 00:35:07 [INFO] [nids] [Database] Database schema is ready.
+2025-12-11 00:35:14 [INFO] [nids] [MLPredictor] Loaded model assets from C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\models\model_files (9 features)
+2025-12-11 00:35:14 [INFO] [nids] [System] Starting NIDS server
+2025-12-11 00:35:26 [INFO] [nids] [API] Resolved interface for monitoring: {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:35:26 [INFO] [nids] [PacketCapture] Packet capture started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:35:26 [INFO] [nids] [API] Monitoring started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:38:34 [INFO] [nids] [Database] Using database at C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\database\nids.db
+2025-12-11 00:38:34 [INFO] [nids] [Database] Database schema is ready.
+2025-12-11 00:38:35 [INFO] [nids] [MLPredictor] Loaded model assets from C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\models\model_files (9 features)
+2025-12-11 00:38:36 [INFO] [nids] [System] Starting NIDS server
+2025-12-11 00:38:48 [INFO] [nids] [API] Resolved interface for monitoring: {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:38:48 [INFO] [nids] [PacketCapture] Packet capture started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:38:48 [INFO] [nids] [API] Monitoring started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:38:51 [INFO] [nids] [PacketCapture] Stopping packet capture...
+2025-12-11 00:38:51 [ERROR] [nids] [PacketCapture] Error stopping sniffer: Unsupported (offline or unsupported socket)
+2025-12-11 00:38:52 [INFO] [nids] [PacketCapture] Packet capture stopped.
+2025-12-11 00:38:52 [INFO] [nids] [API] Monitoring stopped
+2025-12-11 00:39:03 [INFO] [nids] [API] Resolved interface for monitoring: {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:39:03 [INFO] [nids] [PacketCapture] Packet capture started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:39:03 [INFO] [nids] [API] Monitoring started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:39:09 [INFO] [nids] [PacketCapture] Stopping packet capture...
+2025-12-11 00:39:09 [ERROR] [nids] [PacketCapture] Error stopping sniffer: Unsupported (offline or unsupported socket)
+2025-12-11 00:39:11 [INFO] [nids] [PacketCapture] Packet capture stopped.
+2025-12-11 00:39:11 [INFO] [nids] [API] Monitoring stopped
+2025-12-11 00:39:20 [INFO] [nids] [API] Resolved interface for monitoring: {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:39:20 [INFO] [nids] [PacketCapture] Packet capture started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:39:20 [INFO] [nids] [API] Monitoring started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:39:22 [INFO] [nids] [PacketCapture] Stopping packet capture...
+2025-12-11 00:39:22 [ERROR] [nids] [PacketCapture] Error stopping sniffer: Unsupported (offline or unsupported socket)
+2025-12-11 00:39:24 [INFO] [nids] [PacketCapture] Packet capture stopped.
+2025-12-11 00:39:24 [INFO] [nids] [API] Monitoring stopped
+2025-12-11 00:42:03 [INFO] [nids] [API] Resolved interface for monitoring: {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:42:03 [INFO] [nids] [PacketCapture] Packet capture started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:42:03 [INFO] [nids] [API] Monitoring started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:43:41 [INFO] [nids] [PacketCapture] Stopping packet capture...
+2025-12-11 00:43:41 [ERROR] [nids] [PacketCapture] Error stopping sniffer: Unsupported (offline or unsupported socket)
+2025-12-11 00:43:41 [INFO] [nids] [PacketCapture] Packet capture stopped.
+2025-12-11 00:43:41 [INFO] [nids] [API] Monitoring stopped
+2025-12-11 00:46:02 [INFO] [nids] [API] Resolved interface for monitoring: {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:46:02 [INFO] [nids] [PacketCapture] Packet capture started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:46:02 [INFO] [nids] [API] Monitoring started on {EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 00:46:43 [INFO] [nids] [Database] Using database at C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\database\nids.db
+2025-12-11 00:46:43 [INFO] [nids] [Database] Database schema is ready.
+2025-12-11 00:46:44 [INFO] [nids] [MLPredictor] Loaded model assets from C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\models\model_files (9 features)
+2025-12-11 00:46:44 [INFO] [nids] [System] Starting NIDS server
+2025-12-11 00:46:51 [INFO] [nids] [API] Resolved interface for monitoring: \Device\NPF_{D6ADB98A-CC05-4041-8E8E-8ABE4B21D534}
+2025-12-11 00:46:51 [INFO] [nids] [PacketCapture] Packet capture started on \Device\NPF_{D6ADB98A-CC05-4041-8E8E-8ABE4B21D534}
+2025-12-11 00:46:51 [INFO] [nids] [API] Monitoring started on \Device\NPF_{D6ADB98A-CC05-4041-8E8E-8ABE4B21D534}
+2025-12-11 00:51:26 [INFO] [nids] [PacketCapture] Stopping packet capture...
+2025-12-11 00:55:41 [INFO] [nids] [MLPredictor] Loaded binary model assets from C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\models\NF-CICIDS2018-v3\new try\deployment (42 features, threshold=0.9992049336433411)
+2025-12-11 10:17:54 [INFO] [nids] [Database] Using database at C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\database\nids.db
+2025-12-11 10:17:54 [INFO] [nids] [Database] Database schema is ready.
+2025-12-11 10:17:57 [INFO] [nids] [MLPredictor] Loaded binary model assets from C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\models\NF-CICIDS2018-v3\new try\deployment (42 features, threshold=0.9992049336433411)
+2025-12-11 10:17:57 [INFO] [nids] [System] Starting NIDS server
+2025-12-11 10:18:09 [INFO] [nids] [API] Resolved interface for monitoring: \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 10:18:09 [INFO] [nids] [PacketCapture] Packet capture started on \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 10:18:09 [INFO] [nids] [API] Monitoring started on \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 12:41:37 [INFO] [nids] [Database] Using database at C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\database\nids.db
+2025-12-11 12:41:37 [INFO] [nids] [Database] Database schema is ready.
+2025-12-11 12:41:46 [INFO] [nids] [MLPredictor] Loaded binary model assets from C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\models\NF-CICIDS2018-v3\new try\deployment (42 features, threshold=0.9992049336433411)
+2025-12-11 12:41:46 [INFO] [nids] [System] Starting NIDS server
+2025-12-11 12:42:43 [ERROR] [nids] [API] Failed to enumerate interfaces via powershell: Command '['powershell', '-Command', 'Get-NetAdapter | Select-Object Name,Status,InterfaceDescription,InterfaceGuid | ConvertTo-Json']' timed out after 5 seconds
+2025-12-11 12:42:58 [INFO] [nids] [API] Resolved interface for monitoring: \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 12:42:58 [INFO] [nids] [PacketCapture] Packet capture started on \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 12:42:58 [INFO] [nids] [API] Monitoring started on \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 13:09:41 [INFO] [nids] [Database] Using database at C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\database\nids.db
+2025-12-11 13:09:41 [INFO] [nids] [Database] Database schema is ready.
+2025-12-11 13:09:41 [INFO] [nids] [MLPredictor] Loaded binary model assets from C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\models\NF-CICIDS2018-v3\new try\deployment (42 features, threshold=0.9992049336433411)
+2025-12-11 13:09:41 [INFO] [nids] [System] Starting NIDS server
+2025-12-11 13:10:16 [INFO] [nids] [API] Resolved interface for monitoring: \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 13:10:16 [INFO] [nids] [PacketCapture] Packet capture started on \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 13:10:16 [INFO] [nids] [API] Monitoring started on \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 13:23:51 [INFO] [nids] [Database] Using database at C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\database\nids.db
+2025-12-11 13:23:51 [INFO] [nids] [Database] Database schema is ready.
+2025-12-11 13:23:53 [INFO] [nids] [MLPredictor] Loaded binary model assets from C:\Users\User\Documents\SEM 6\FYP2\hairini isnin\seminggu\NIDS  TRY\models\NF-CICIDS2018-v3\new try\deployment (42 features, threshold=0.9992049336433411)
+2025-12-11 13:23:53 [INFO] [nids] [System] Starting NIDS server
+2025-12-11 13:24:14 [INFO] [nids] [API] Resolved interface for monitoring: \Device\NPF_{EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 13:24:14 [INFO] [nids] [PacketCapture] Packet capture started on \Device\NPF_{EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 13:24:14 [INFO] [nids] [API] Monitoring started on \Device\NPF_{EF5537E9-DDE3-4ED3-9AD3-1261D646016D}
+2025-12-11 13:24:29 [INFO] [nids] [PacketCapture] Stopping packet capture...
+2025-12-11 13:24:30 [INFO] [nids] [PacketCapture] Packet capture stopped.
+2025-12-11 13:24:30 [INFO] [nids] [API] Monitoring stopped
+2025-12-11 13:24:35 [INFO] [nids] [API] Resolved interface for monitoring: \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 13:24:35 [INFO] [nids] [PacketCapture] Packet capture started on \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}
+2025-12-11 13:24:35 [INFO] [nids] [API] Monitoring started on \Device\NPF_{ED386D3F-8662-4386-9B4F-B70FB9FA6DFF}

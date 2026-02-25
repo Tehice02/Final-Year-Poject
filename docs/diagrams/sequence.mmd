@@ -1,0 +1,20 @@
+sequenceDiagram
+  participant U as User
+  participant W as Web UI
+  participant R as Routes
+  participant S as Services
+  participant P as Parser
+  participant M as ML Service
+  participant DB as Database
+
+  U->>W: Upload PCAP
+  W->>R: POST /upload
+  R->>S: Store file and trigger analysis
+  S->>P: Parse and extract flows
+  P-->>S: Flow records
+  S->>M: Request predictions
+  M-->>S: Predictions
+  S->>DB: Save analysis results
+  W->>DB: Request results to display
+  DB-->>W: Return results
+  W-->>U: Display results

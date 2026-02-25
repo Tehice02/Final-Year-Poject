@@ -1,0 +1,40 @@
+# Flask Core
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# Database
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.5
+SQLAlchemy==2.0.23
+
+# Authentication
+Flask-Login==0.6.3
+bcrypt==4.1.2
+
+# Forms & CSRF Protection
+Flask-WTF==1.2.1
+WTForms==3.1.1
+
+# Rate Limiting
+Flask-Limiter==3.5.0
+
+# WebSocket Support
+Flask-SocketIO==5.3.5
+python-socketio==5.10.0
+eventlet==0.33.3
+
+# CORS
+Flask-CORS==4.0.0
+
+# Network Packet Capture (Scapy)
+scapy==2.5.0
+
+# Machine Learning
+xgboost==2.0.3
+scikit-learn==1.3.2
+joblib==1.3.2
+numpy==1.26.2
+pandas==2.1.4
+
+# Environment Variables
+python-dotenv==1.0.0

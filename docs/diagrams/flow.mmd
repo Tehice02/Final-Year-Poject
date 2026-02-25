@@ -1,0 +1,10 @@
+flowchart TD
+  Start([Start]) --> Upload[User uploads PCAP via Web UI]
+  Upload --> Store[Save file to uploads folder]
+  Store --> Parse[Parser extracts flows]
+  Parse --> Features[Feature extraction & aggregation]
+  Features --> Predict[ML predictor]
+  Predict --> Results[Save analysis to Database]
+  Results --> WebUI[Web UI retrieves and displays results]
+  WebUI --> Export[User may export reports]
+  Export --> End([End])
