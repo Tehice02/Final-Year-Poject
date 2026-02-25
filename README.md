@@ -15,28 +15,6 @@ A real-time network intrusion detection system using Machine Learning models (XG
 - **Error Handling** - Custom error pages (403, 404, 429, 500) with user-friendly messages
 - **Database Management** - SQLite with Alembic migrations support
 
-## Use Cases
-
-Purpose:
-
-- Shows how legitimate users interact with the system.
-- Clarifies system functionality for software engineering and degree marking.
-
-Actors:
-- **Admin** — manages users, views system-wide activity and reports.
-- **Analyst / Security Officer** — reviews alerts, investigates flows, runs analyses.
-- **System (ML Engine)** — performs feature extraction and returns model predictions.
-
-Common Use Case Examples (for this project):
-
-- **Login to system** (Actor: Admin, Analyst) — authenticate and access dashboard.
-- **Start live packet capture** (Actor: Analyst) — begin monitoring an interface for real-time alerts.
-- **Upload PCAP file** (Actor: Analyst) — submit an offline PCAP for analysis.
-- **View real-time dashboard** (Actor: Admin, Analyst) — observe live metrics and alerts.
-- **View alert history** (Actor: Analyst) — inspect past alerts and their associated flows.
-- **Manage users** (Actor: Admin) — create, suspend, or delete user accounts.
-
-
 ## Tech Stack
 
 - **Backend:** Flask, Flask-SocketIO, SQLAlchemy, Flask-Migrate (Alembic)
@@ -295,12 +273,15 @@ project-root/
 The diagrams below have been updated to ensure the Web Application (browser UI) is the user-facing endpoint; the database is storage only.
 
 **Flow Chart**
+
 <img width="466" height="933" alt="Screenshot 2026-02-25 090907" src="https://github.com/user-attachments/assets/4ffe9a05-08d1-4795-a573-9d9987b99050" />
 
 **Use Case**
+
 <img width="1236" height="746" alt="Screenshot 2026-02-25 090837" src="https://github.com/user-attachments/assets/2e16d10b-70d3-466f-97de-9e9f9e1e908b" />
 
 **Architacture Diagram**
+
 <img width="1683" height="832" alt="Screenshot 2026-02-25 090943" src="https://github.com/user-attachments/assets/7ad57f53-015c-412a-8290-37d1923a02ba" />
 
 ## Troubleshooting
