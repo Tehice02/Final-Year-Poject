@@ -35,9 +35,7 @@ A real-time network intrusion detection system using Machine Learning models (XG
 
 <img width="413" height="559" alt="Screenshot 2025-12-16 162910" src="https://github.com/user-attachments/assets/cec8a25b-80ff-4411-a978-486924cba449" />
 
-<img width="1067" height="1822" alt="Screenshot 2025-12-18 143648" src="https://github.com/user-attachments/assets/a2a70ec3-b4f7-464e-b1bd-a044b09b750b" />
-
-<img width="1044" height="1468" alt="Screenshot 2025-12-16 163229" src="https://github.com/user-attachments/assets/2dfe5cd5-c3ed-4873-b636-1e62ef124d1d" />
+<img width="1067" height="1829" alt="Screenshot 2025-12-16 170221" src="https://github.com/user-attachments/assets/8c8adc13-9ed0-40a6-8454-8706f0a9f0ad" />
 
 <img width="879" height="895" alt="Screenshot 2026-01-19 233135" src="https://github.com/user-attachments/assets/47a14c25-d550-4fc1-bb5a-5d930fafd834" />
 
