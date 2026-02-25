@@ -294,84 +294,14 @@ project-root/
 
 The diagrams below have been updated to ensure the Web Application (browser UI) is the user-facing endpoint; the database is storage only.
 
-**Component Architecture**
+**Flow Chart**
+<img width="466" height="933" alt="Screenshot 2026-02-25 090907" src="https://github.com/user-attachments/assets/4ffe9a05-08d1-4795-a573-9d9987b99050" />
 
-```mermaid
-flowchart LR
-   User[User / Admin] -->|uses| WebUI[Web Application]
-   WebUI -->|HTTP/WebSocket| Routes[Flask Routes]
-   Routes --> Services[Service Layer]
+**Use Case**
+<img width="1236" height="746" alt="Screenshot 2026-02-25 090837" src="https://github.com/user-attachments/assets/2e16d10b-70d3-466f-97de-9e9f9e1e908b" />
 
-   subgraph Backend["Backend (Flask App)"]
-      Services --> PcapService[PCAP Service]
-      Services --> MLService[ML Service]
-      Services --> Monitoring[Monitoring Service]
-
-      MLService --> MultiPredictor[Multi-Model Predictor]
-      MultiPredictor --> XGB[XGBoost Model]
-      MultiPredictor --> RF[Random Forest]
-      MultiPredictor --> KNN[KNN Model]
-
-      PcapService --> Analyzer[Scapy PCAP Analyzer]
-      Monitoring --> Engine[Scapy Capture Engine]
-
-      Analyzer --> FlowAgg[Flow Aggregator - 20 features]
-      Engine --> FlowAgg
-
-      FlowAgg --> MultiPredictor
-      Services -->|SQLAlchemy ORM| DB[(SQLite Database)]
-   end
-
-   WebUI -->|Socket.IO| Monitoring
-   WebUI -->|download| Exports[/Exports Directory/]
-   Backend -->|write| Logs[/Logs Directory/]
-
-   style XGB fill:#90EE90
-   style RF fill:#FFB6C1
-   style KNN fill:#87CEEB
-```
-
-**End-to-end Flow (user upload -> results shown in Web UI)**
-
-```mermaid
-flowchart TD
-   Start([Start]) --> Upload[User uploads PCAP via Web UI]
-   Upload --> Store[Save file to uploads folder]
-   Store --> Parse[Parser extracts flows]
-   Parse --> Features[Feature extraction & aggregation]
-   Features --> Predict[ML predictor]
-   Predict --> Results[Save analysis to Database]
-   Results --> WebUI[Web UI retrieves and displays results]
-   WebUI --> Export[User may export reports]
-   Export --> End([End])
-```
-
-**Sequence (simplified)**
-
-```mermaid
-sequenceDiagram
-   participant U as User
-   participant W as Web UI
-   participant R as Routes
-   participant S as Services
-   participant P as Parser
-   participant M as ML Service
-   participant DB as Database
-
-   U->>W: Upload PCAP
-   W->>R: POST /upload
-   R->>S: Store file and trigger analysis
-   S->>P: Parse and extract flows
-   P-->>S: Flow records
-   S->>M: Request predictions
-   M-->>S: Predictions
-   S->>DB: Save analysis results
-   W->>DB: Request results to display
-   DB-->>W: Return results
-   W-->>U: Display results
-```
-
-Expected output: `[PASS] Only XGBoost was called!`
+**Architacture Diagram**
+<img width="1683" height="832" alt="Screenshot 2026-02-25 090943" src="https://github.com/user-attachments/assets/7ad57f53-015c-412a-8290-37d1923a02ba" />
 
 ## Troubleshooting
 
